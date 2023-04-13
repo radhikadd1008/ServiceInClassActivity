@@ -47,9 +47,6 @@ class TimerService : Service() {
             this@TimerService.pause()
         }
 
-        fun getService() : TimerService {
-            return this@TimerService
-        }
 
     }
 
